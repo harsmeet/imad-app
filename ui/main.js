@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 // move the Doremon image
 
-var img= document.getElementById('img');
+var img= document.getElementById('doremon');
 function moveRight() {
 marginLeft = marginLeft+2;
 img.style.marginLeft=marginLeft+'px';
