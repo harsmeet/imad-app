@@ -27,3 +27,21 @@ button.onclick=function () {
     var span=document.getElementById('count');
     span.innerHTML=counter.toString();
 };
+
+// Submitt Name !!!!!!!!!!
+var nameInput=document.getElementById('name');
+var name = nameInput.value;
+
+var submit=document.getElementByid('submt_btn');
+submit.onclick= function(){
+    //make a req to the server and send the name
+    //capture a list of names and render it as a list
+    
+    var names=['punjab','haryana','karnataka'];
+    var list='';
+    for(var i=0;i<names.length;i++){
+        
+    } 
+    var ul = document.getElementById('namelist');
+    ul.innerHTML=list;
+};
