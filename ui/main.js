@@ -2,7 +2,7 @@ console.log('Loaded!');
 
 // change the text of the main-text div
 var element=document.getElementByID=('main-text');
-element.innertHTML='Update My Text';
+element.innertHTML='Update';
 
 // move the Doremon image
 
