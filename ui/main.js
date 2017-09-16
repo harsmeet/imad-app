@@ -4,20 +4,9 @@ console.log('Loaded!');
 var element=document.getElementByID=('main-text');
 element.innertHTML='Update';
 
-// move the Doremon image
+// move the image
 
 var img = document.getElementById('madi');
-
-
-
-
-
-
-
-
-
-
-
 
 // var marginLeft=0;
 // function moveRight() {
